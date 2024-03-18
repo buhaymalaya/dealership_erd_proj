@@ -26,20 +26,25 @@ INSERT INTO dealership(
 INSERT INTO customer(
 
   first_name,
-  last_name
+  last_name,
+  dealership_id
 ) VALUES (
     'Jim',
-    'Halpert'
+    'Halpert',
+    1
 ),
 (
     'Michael',
-    'Scott'
+    'Scott',
+    2
 ),
 (
     'Meredith',
-    'Palmer'
+    'Palmer',
+    3
 ),
 (
     'Dwight',
-    'Schrute'
+    'Schrute',
+    1
 );
